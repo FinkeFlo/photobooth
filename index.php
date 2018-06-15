@@ -29,7 +29,7 @@ require_once('db.php');
 			</div>
 			<div class="inner">
 				<div class="names"><hr class="small" /><hr><div data-l10n="startScreen"></div><hr><hr class="small" /></div>
-				<a href="#" class="btn takePic"><i class="fa fa-camera"></i> <span data-l10n="takePhoto"></span></a>
+				<a href="#" class="btn takePic"><div style="font-size:2em;"><i class="fa fa-camera"></i></div> <span data-l10n="takePhoto"></span></a>
 			</div>
 		</div>
 
@@ -52,7 +52,7 @@ require_once('db.php');
 			<!-- <a href="#" class="btn gallery"><i class="fa fa-th"></i> <span data-l10n="gallery"></span></a> -->
 			<?php if($config['use_qr']){ echo '<a href="#" class="btn qrbtn"><span class="qrbtnlabel"><i class="fa fa-qrcode"></i> <span data-l10n="qr"></span></span></a>'; } ?>
 			<?php if($config['use_print']){ echo '<a href="#" class="btn printbtn"><i class="fa fa-print"></i> <span data-l10n="print"></span></a>'; } ?>
-			<a href="#" class="btn newpic"><i class="fa fa-camera"></i> <span data-l10n="newPhoto"></span></a>
+			<a href="#" class="btn newpic"><div style="font-size:2em;"><i class="fa fa-camera"></i></div> <span data-l10n="newPhoto"></span></a>
 			</div>
 			<?php if($config['use_qr']){ echo '<div class="qr"></div>';} ?>
 		</div>
