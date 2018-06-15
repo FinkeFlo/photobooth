@@ -5,7 +5,7 @@ var photoBooth = (function () {
     var public = {},
         loader = $('#loader'),
         startPage = $('#start'),
-        countDown = 5,
+        countDown = 3,
         timeToLive = 90000,
         qr = false,
         timeOut,
